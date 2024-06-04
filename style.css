@@ -1,0 +1,140 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Main */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navbar-brand-icon {
+    margin-right: 10px;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background: #444;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+    background: #e9ecef;
+    padding: 10px 0;
+}
+
+.breadcrumbs ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs ul li {
+    margin-right: 10px;
+}
+
+.breadcrumbs ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.breadcrumbs ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Food Sales Table */
+.food-sales {
+    margin: 50px 0;
+}
+
+.food-sales h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+}
+
+.food-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.food-table th, .food-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.food-table th {
+    background: #007bff;
+    color: #fff;
+}
+
+.food-table tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Navbar Brand Icon */
+.navbar-brand-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Food Table Images */
+.food-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
